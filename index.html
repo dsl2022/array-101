@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Array Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Array Tutorial</h1>
+      <p>In this tutorial, you will learn how to work with JavaScript arrays.</p>
+      <h2>Creating Arrays</h2>
+      <p>To create a new array, use the following syntax:</p>
+      <pre><code>var myArray = [1, 2, 3, 4, 5];</code></pre>
+      <button onclick="showNextTip()">Next Tip</button>
+      <div id="tip-container" class="hidden">
+        <h2>Accessing Array Elements</h2>
+        <p>To access an element in an array, use the index number:</p>
+        <pre><code>var firstElement = myArray[0]; // returns 1</code></pre>
+        <p>Note that array indices start at 0.</p>
+        <button onclick="showNextTip()">Next Tip</button>
+      </div>
+      <div id="example-container" class="hidden">
+        <h2>Array Example</h2>
+        <p>Here is an example of how to use an array:</p>
+        <pre><code>// create a new array
+var fruits = ['apple', 'banana', 'orange'];
+
+// print the first element
+console.log(fruits[0]); // outputs 'apple'
+
+// add a new element to the end of the array
+fruits.push('kiwi');
+
+// remove the last element from the array
+fruits.pop();
+
+// loop through the array and print each element
+for (var i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}</code></pre>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
